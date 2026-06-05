@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Training outputs
+checkpoints/
+results/
+reconstructed*/
+*.pt
+*.pth
+training_log.csv
+per_scenario_scores.csv
+summary.csv
+cfar_roc_points.csv
+
+# MATLAB generated data
+output/
+*.mat
+*.fig
+*.asv
+
+# MATLAB cache
+slprj/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
