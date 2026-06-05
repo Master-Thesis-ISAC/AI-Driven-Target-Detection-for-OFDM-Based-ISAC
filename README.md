@@ -148,13 +148,22 @@ Reads `output/manifest.csv` and saves `RQ3_BER_vs_SNR_with_theory.png`.
 
 ## Dataset
 
-The full 5000-scenario dataset (~several GB) is not included in this repository due to file size. It is hosted on Zenodo:
+The full 5000-scenario dataset (297 MB) is not included in this repository due to file size.
 
-> Raghu Vamsi Sai Rangannagari & Omkar Siddeswar Tenali (2026).  
-> *OFDM-ISAC RD-Map Dataset — 5000 Scenarios (5G NR, BTH MSc Thesis 2026)*.  
-> Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+**Download:** [ISAC\_Dataset\_5000\_Scenarios.zip — Google Drive](https://drive.google.com/file/d/1fhyPWFJJGfA9q4Q9eCBDjz-Akze4uE8m/view?usp=sharing)
 
-Download and extract into the `output/` folder before running the AI pipeline.
+After downloading, extract into the `output/` folder:
+
+```
+Final_Master_Thesis/
+└── output/
+    ├── manifest.csv
+    ├── scenario_0001.mat
+    ├── scenario_0002.mat
+    └── ...
+```
+
+Then run the AI pipeline pointing to `output/manifest.csv`.
 
 ---
 
